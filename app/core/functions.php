@@ -75,7 +75,7 @@ function crop($filename,$size = 400,$type = 'product')
 			return 'assets/images/user_male.jpg';
 		}else
 		if($type == "female"){
-			return '/user_female.jpg';
+			return 'assets/images/user_female.jpg';
 		}else{
 			return 'assets/images/no_image.jpg';
 		}
@@ -83,23 +83,38 @@ function crop($filename,$size = 400,$type = 'product')
 
 	
 	//create image resource
+	$src_image = false;
 	switch ($ext) {
 		case 'jpg':
 		case 'jpeg':
-			$src_image = imagecreatefromjpeg($filename);
+			$src_image = @imagecreatefromjpeg($filename);
 			break;
 		
 		case 'gif':
-			$src_image = imagecreatefromgif($filename);
+			$src_image = @imagecreatefromgif($filename);
 			break;
 		
 		case 'png':
-			$src_image = imagecreatefrompng($filename);
+			$src_image = @imagecreatefrompng($filename);
 			break;
 		
 		default:
 			return $filename;
 			break;
+	}
+
+	// Check if image creation failed
+	if($src_image === false)
+	{
+		// Return default image if file is corrupted or invalid
+		if($type == "male"){
+			return 'assets/images/user_male.jpg';
+		}else
+		if($type == "female"){
+			return 'assets/images/user_female.jpg';
+		}else{
+			return 'assets/images/no_image.jpg';
+		}
 	}
 
 	//set cropping params

@@ -5,12 +5,24 @@ var BARCODE 	= false;
 var GTOTAL  	= 0;
 var CHANGE  	= 0;
 var RECEIPT_WINDOW = null;
+var CURRENT_CATEGORY = 'all';
 
 var main_input = document.querySelector(".js-search");
 
 function search_item(e){
     var text = e.target.value.trim();
-    console.log("Searching for:", text); // Add this line
+    console.log("Searching for:", text);
+    
+    // Show loading state
+    var mydiv = document.querySelector(".js-products");
+    if (text.length > 0) {
+        mydiv.innerHTML = `
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
+        `;
+    }
+    
     var data = {};
     data.data_type = "search";
     data.text = text;
@@ -74,25 +86,38 @@ function handle_result(result){
 		//valid json
 		if(obj.data_type == "search")
 		{
+			PRODUCTS = obj.data || [];
+			
+			// Apply current category filter
+			if (CURRENT_CATEGORY !== 'all') {
+				var filteredProducts = PRODUCTS.filter(product => {
+					var description = product.description.toLowerCase();
+					if (CURRENT_CATEGORY === 'meals') {
+						return description.includes('cake') || 
+							   description.includes('burger') || 
+							   description.includes('bread') || 
+							   description.includes('meal') ||
+							   description.includes('food') ||
+							   description.includes('chips');
+					} else if (CURRENT_CATEGORY === 'drinks') {
+						return description.includes('drink') || 
+							   description.includes('coffee') || 
+							   description.includes('tea') || 
+							   description.includes('juice') ||
+							   description.includes('soda') ||
+							   description.includes('water');
+					}
+					return true;
+				});
+				displayProducts(filteredProducts);
+			} else {
+				displayProducts(PRODUCTS);
+			}
 
-			var mydiv = document.querySelector(".js-products");
-
-			mydiv.innerHTML = "";
-			PRODUCTS = [];
-
-			var mydiv = document.querySelector(".js-products");
-			if(obj.data != "")
-			{
-				
-				PRODUCTS = obj.data;
-				for (var i = 0; i < obj.data.length; i++) {
-					
-					mydiv.innerHTML += product_html(obj.data[i],i);
-				}
-
-				if(BARCODE && PRODUCTS.length == 1){
+			if(BARCODE && PRODUCTS.length == 1){
+				setTimeout(() => {
 					add_item_from_index(0);
-				}
+				}, PRODUCTS.length * 100);
 			}
 		}
 		
@@ -102,22 +127,92 @@ function handle_result(result){
 
 function product_html(data,index)
 {
-
 	return `
-		<!--card-->
-		<div class="card m-2 border-0 mx-auto" style="min-width: 190px;max-width: 190px;">
-			<a href="#">
-				<img index="${index}" src="${data.image}" class="w-100 rounded border">
-			</a>
-			<div class="p-2">
-				<div class="">${data.description}</div>
-				<div class="" style="font-size:20px"><b>K${data.amount}</b></div>
+		<div class="product-card" data-index="${index}">
+			<div class="product-image-container">
+				<img index="${index}" src="${data.image}" class="product-image" alt="${data.description}" 
+					 onload="handleImageLoad(this)" onerror="handleImageError(this)">
+			</div>
+			<div class="product-info">
+				<div class="product-title">${data.description}</div>
+				<div class="product-price">K${data.amount}</div>
 			</div>
 		</div>
-		<!--end card-->
-		`;
+	`;
+}
 
-			
+// Handle image loading
+function handleImageLoad(img) {
+	img.classList.add('loaded');
+}
+
+// Handle image errors
+function handleImageError(img) {
+	img.classList.add('error');
+	img.src = 'assets/images/no_image.jpg';
+}
+
+// Category filtering function
+function filterByCategory(category) {
+	CURRENT_CATEGORY = category;
+	
+	// Update active button
+	document.querySelectorAll('.category-btn').forEach(btn => {
+		btn.classList.remove('active');
+	});
+	document.querySelector(`[data-category="${category}"]`).classList.add('active');
+	
+	// Filter products based on category
+	var filteredProducts = PRODUCTS;
+	
+	if (category !== 'all') {
+		filteredProducts = PRODUCTS.filter(product => {
+			var description = product.description.toLowerCase();
+			if (category === 'meals') {
+				return description.includes('cake') || 
+					   description.includes('burger') || 
+					   description.includes('bread') || 
+					   description.includes('meal') ||
+					   description.includes('food') ||
+					   description.includes('chips');
+			} else if (category === 'drinks') {
+				return description.includes('drink') || 
+					   description.includes('coffee') || 
+					   description.includes('tea') || 
+					   description.includes('juice') ||
+					   description.includes('soda') ||
+					   description.includes('water');
+			}
+			return true;
+		});
+	}
+	
+	// Display filtered products
+	displayProducts(filteredProducts);
+}
+
+// Function to display products with animation
+function displayProducts(products) {
+	var mydiv = document.querySelector(".js-products");
+	mydiv.innerHTML = "";
+	
+	if (products.length > 0) {
+		// Add products with staggered animation
+		for (var i = 0; i < products.length; i++) {
+			setTimeout(() => {
+				mydiv.innerHTML += product_html(products[i], i);
+			}, i * 100);
+		}
+	} else {
+		// Show empty state
+		mydiv.innerHTML = `
+			<div class="empty-state">
+				<i class="fa fa-search"></i>
+				<h5>No products found</h5>
+				<p>No products available in this category</p>
+			</div>
+		`;
+	}
 }
 
 function item_html(data, index) {
@@ -146,6 +241,16 @@ return `
 
 function add_item_from_index(index)
 {
+		// Add visual feedback
+		var productCard = document.querySelector(`[data-index="${index}"]`);
+		if (productCard) {
+			productCard.style.transform = 'scale(0.95)';
+			productCard.style.boxShadow = '0 0 20px rgba(0,123,255,0.5)';
+			setTimeout(() => {
+				productCard.style.transform = '';
+				productCard.style.boxShadow = '';
+			}, 200);
+		}
 
 		//check if items exists
 		for (var i = ITEMS.length - 1; i >= 0; i--) {
@@ -179,18 +284,38 @@ function add_item(e)
 
 function refresh_items_display()
 {
-
 	var item_count = document.querySelector(".js-item-count");
-	item_count.innerHTML = ITEMS.length;
+	var old_count = parseInt(item_count.innerHTML) || 0;
+	var new_count = ITEMS.length;
+	
+	item_count.innerHTML = new_count;
+	
+	// Add animation to cart count
+	if (new_count > old_count) {
+		item_count.style.animation = 'bounce 0.6s ease';
+		setTimeout(() => {
+			item_count.style.animation = '';
+		}, 600);
+	}
 
 	var items_div = document.querySelector(".js-items");
 	items_div.innerHTML = "";
 	var grand_total = 0;
 
-	for (var i = ITEMS.length - 1; i >= 0; i--) {
-
-		items_div.innerHTML += item_html(ITEMS[i],i);
-		grand_total += (ITEMS[i].qty * ITEMS[i].amount);
+	if (ITEMS.length === 0) {
+		items_div.innerHTML = `
+			<tr>
+				<td colspan="3" class="text-center text-muted py-4">
+					<i class="fa fa-shopping-cart fa-2x mb-2"></i><br>
+					Your cart is empty
+				</td>
+			</tr>
+		`;
+	} else {
+		for (var i = ITEMS.length - 1; i >= 0; i--) {
+			items_div.innerHTML += item_html(ITEMS[i],i);
+			grand_total += (ITEMS[i].qty * ITEMS[i].amount);
+		}
 	}
 	
 	var gtotal_div = document.querySelector(".js-gtotal");
@@ -372,23 +497,7 @@ function hide_modal(e,modal)
 		    alert("Please enter a phone number.");  // Alert if phone number is empty
 		}
 
-		// Send receipt SMS after checkout
-		var receipt_no = get_receipt_no();
-		if (userPhone && receipt_no) {
-			var xhr = new XMLHttpRequest();
-			xhr.open("POST", "public/send_receipt.php", true);
-			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-			xhr.onreadystatechange = function() {
-				if (xhr.readyState === 4) {
-					if (xhr.status === 200) {
-						console.log("Receipt SMS sent successfully");
-					} else {
-						console.error("Failed to send receipt SMS");
-					}
-				}
-			};
-			xhr.send("receipt_no=" + encodeURIComponent(receipt_no) + "&phone=" + encodeURIComponent(userPhone));
-		}
+		// Receipt SMS will be sent by the backend during checkout
 
 		//open receipt page
 		print_receipt({
@@ -413,10 +522,6 @@ function hide_modal(e,modal)
 
 function print_receipt(obj)
 {
-	// Generate the receipt number before sending the data
-	var receipt_no = get_receipt_no(); // Assuming get_receipt_no() is available in the frontend
-	obj.receipt_no = receipt_no; // Add the receipt number to the object
-
 	var vars = JSON.stringify(obj);
 
 	RECEIPT_WINDOW = window.open('index.php?pg=print&vars='+vars,'printpage',"width=500px;");

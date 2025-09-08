@@ -3068,3 +3068,657 @@ Stack trace:
 #2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
 #3 {main}
   thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:08:59 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:08:59 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:08:59 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:08:59 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:08:59 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:08:59 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): &quot;uploads/a641f067b91c3d3de591f3e67470f64067e6845f_6369.jpg&quot; is not a valid JPEG file in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:08:59 Africa/Lusaka] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\xampp\htdocs\final-project\app\core\functions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\final-project\app\core\functions.php(113): imagesx(false)
+#1 C:\xampp\htdocs\final-project\app\controllers\ajax.php(46): crop('uploads/a641f06...')
+#2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:14:21 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:21 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:21 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:21 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:14:21 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:21 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): &quot;uploads/a641f067b91c3d3de591f3e67470f64067e6845f_6369.jpg&quot; is not a valid JPEG file in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:21 Africa/Lusaka] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\xampp\htdocs\final-project\app\core\functions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\final-project\app\core\functions.php(113): imagesx(false)
+#1 C:\xampp\htdocs\final-project\app\controllers\ajax.php(56): crop('uploads/a641f06...')
+#2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:14:23 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:23 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:23 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:23 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:14:23 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:23 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): &quot;uploads/a641f067b91c3d3de591f3e67470f64067e6845f_6369.jpg&quot; is not a valid JPEG file in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:23 Africa/Lusaka] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\xampp\htdocs\final-project\app\core\functions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\final-project\app\core\functions.php(113): imagesx(false)
+#1 C:\xampp\htdocs\final-project\app\controllers\ajax.php(56): crop('uploads/a641f06...')
+#2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:14:27 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:27 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:27 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:27 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:14:27 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:27 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): &quot;uploads/a641f067b91c3d3de591f3e67470f64067e6845f_6369.jpg&quot; is not a valid JPEG file in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:27 Africa/Lusaka] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\xampp\htdocs\final-project\app\core\functions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\final-project\app\core\functions.php(113): imagesx(false)
+#1 C:\xampp\htdocs\final-project\app\controllers\ajax.php(56): crop('uploads/a641f06...')
+#2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:14:28 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:28 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:28 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:28 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:14:28 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:28 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): &quot;uploads/a641f067b91c3d3de591f3e67470f64067e6845f_6369.jpg&quot; is not a valid JPEG file in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:28 Africa/Lusaka] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\xampp\htdocs\final-project\app\core\functions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\final-project\app\core\functions.php(113): imagesx(false)
+#1 C:\xampp\htdocs\final-project\app\controllers\ajax.php(56): crop('uploads/a641f06...')
+#2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Search text: h
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Search text: hj
+[08-Sep-2025 23:14:30 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:14:31 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:31 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:31 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:31 Africa/Lusaka] AJAX Search: Search text: h
+[08-Sep-2025 23:14:31 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:14:31 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:14:31 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:14:32 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:32 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:32 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:32 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:14:32 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:32 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): &quot;uploads/a641f067b91c3d3de591f3e67470f64067e6845f_6369.jpg&quot; is not a valid JPEG file in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:32 Africa/Lusaka] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\xampp\htdocs\final-project\app\core\functions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\final-project\app\core\functions.php(113): imagesx(false)
+#1 C:\xampp\htdocs\final-project\app\controllers\ajax.php(56): crop('uploads/a641f06...')
+#2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:14:36 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:14:36 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:14:36 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:14:36 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:14:36 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:36 Africa/Lusaka] PHP Warning:  imagecreatefromjpeg(): &quot;uploads/a641f067b91c3d3de591f3e67470f64067e6845f_6369.jpg&quot; is not a valid JPEG file in C:\xampp\htdocs\final-project\app\core\functions.php on line 89
+[08-Sep-2025 23:14:36 Africa/Lusaka] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\xampp\htdocs\final-project\app\core\functions.php:113
+Stack trace:
+#0 C:\xampp\htdocs\final-project\app\core\functions.php(113): imagesx(false)
+#1 C:\xampp\htdocs\final-project\app\controllers\ajax.php(56): crop('uploads/a641f06...')
+#2 C:\xampp\htdocs\final-project\public\index.php(15): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\final-project\app\core\functions.php on line 113
+[08-Sep-2025 23:20:07 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:07 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:07 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:07 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:07 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:07 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:13 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:13 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:13 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:13 Africa/Lusaka] AJAX Search: Search text: c
+[08-Sep-2025 23:20:13 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:13 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:13 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:15 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:15 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:15 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:15 Africa/Lusaka] AJAX Search: Search text: c\
+[08-Sep-2025 23:20:15 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:16 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:16 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:16 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:16 Africa/Lusaka] AJAX Search: Search text: c
+[08-Sep-2025 23:20:16 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:16 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:16 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Search text: q
+[08-Sep-2025 23:20:17 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Search text: w
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:18 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:19 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:19 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:19 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:19 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:19 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:19 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Search text: e
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Search text: r
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:20 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Search text: t
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:21 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Search text: t
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:22 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:23 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:23 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:23 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:23 Africa/Lusaka] AJAX Search: Search text: t
+[08-Sep-2025 23:20:23 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:23 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:23 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Search text: y
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:24 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:28 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:28 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:28 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:28 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:28 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:28 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:20:35 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:20:35 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:20:35 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:20:35 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:20:35 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:20:35 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:25:04 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:25:04 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:25:04 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:25:04 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:25:04 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:25:04 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:25:12 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:25:12 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:25:12 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:25:12 Africa/Lusaka] AJAX Search: Search text: c
+[08-Sep-2025 23:25:12 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:25:12 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:25:12 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:25:15 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:25:15 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:25:15 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:25:15 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:25:15 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:25:15 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:25:39 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:25:39 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:25:39 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:25:39 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:25:39 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:25:39 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:33:10 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:33:10 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:33:10 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:33:10 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:33:10 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:33:10 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:34:15 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:34:15 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:34:15 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:34:15 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:34:15 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:34:15 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:38:44 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:38:44 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:38:44 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:38:44 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:38:44 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:38:44 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:43:14 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:43:14 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:43:14 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:43:14 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:43:14 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:43:14 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:37 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:37 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:37 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:37 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:45:37 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:37 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:47 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:47 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:47 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:47 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:45:47 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:47 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:47 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:50 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:50 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:50 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:50 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:45:50 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:50 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:51 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:51 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:51 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:51 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:45:51 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:51 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:51 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:52 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:52 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:52 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:52 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:45:52 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:52 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Search text: dd
+[08-Sep-2025 23:45:53 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:54 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:54 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:54 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:54 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:45:54 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:54 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:54 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Search text: de
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Search text: dei
+[08-Sep-2025 23:45:56 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Search text: de
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:57 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Search text: dr
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Search text: dri
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:45:58 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Search text: drin
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Search text: dri
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:00 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Search text: dr
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:01 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:02 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:02 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:02 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:02 Africa/Lusaka] AJAX Search: Search text: c
+[08-Sep-2025 23:46:02 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:02 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:02 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Search text: ca
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Search text: cak
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:03 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Search text: ca
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Search text: c
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:04 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:46:42 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:46:42 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:46:42 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:46:42 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:46:42 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:46:42 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:51:09 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:51:09 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:51:09 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:51:09 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:51:09 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:51:09 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:52:16 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:52:16 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:52:16 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:52:16 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:52:16 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:52:16 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:52:20 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:52:21 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:52:21 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:52:21 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:52:21 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:52:21 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:17 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:17 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:17 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:17 Africa/Lusaka] AJAX Search: Search text: c
+[08-Sep-2025 23:55:17 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:17 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:17 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Search text: ca
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Search text: cak
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:19 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Search text: ca
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Search text: c
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:20 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:21 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:21 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:21 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:21 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:55:21 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:21 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Search text: dr
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Search text: dri
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Search text: drin
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:22 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:23 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:23 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:23 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:23 Africa/Lusaka] AJAX Search: Search text: drink
+[08-Sep-2025 23:55:23 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:23 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:23 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Search text: drin
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Search text: dri
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Search text: dr
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:55:25 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:56:01 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:01 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:01 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:01 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:56:01 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:56:01 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:56:05 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:05 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:05 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:05 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:56:05 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:56:05 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:56:05 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:56:06 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:06 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:06 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:06 Africa/Lusaka] AJAX Search: Search text: dr
+[08-Sep-2025 23:56:06 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:56:06 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:56:06 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Search text: d
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: getAll executed
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:56:08 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:56:09 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:09 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:09 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:09 Africa/Lusaka] AJAX Search: Search text: m
+[08-Sep-2025 23:56:09 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:56:09 Africa/Lusaka] AJAX Search: Rows processed
+[08-Sep-2025 23:56:09 Africa/Lusaka] AJAX Search: Response sent
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Search text: me
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Search text: mea
+[08-Sep-2025 23:56:10 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:56:11 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:11 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:11 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:11 Africa/Lusaka] AJAX Search: Search text: meal
+[08-Sep-2025 23:56:11 Africa/Lusaka] AJAX Search: Query executed
+[08-Sep-2025 23:56:13 Africa/Lusaka] AJAX Search: Start
+[08-Sep-2025 23:56:13 Africa/Lusaka] AJAX Search: Product instance created
+[08-Sep-2025 23:56:13 Africa/Lusaka] AJAX Search: Phone captured
+[08-Sep-2025 23:56:13 Africa/Lusaka] AJAX Search: Search text: meals
+[08-Sep-2025 23:56:13 Africa/Lusaka] AJAX Search: Query executed
