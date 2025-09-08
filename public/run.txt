@@ -1,0 +1,8 @@
+Get-ChildItem -Path "*.php" | ForEach-Object {
+    "FILE: $($_.Name)"
+    "================"
+    Get-Content $_.Name
+    "."
+    "================"
+    "."
+} | Out-File -FilePath "all_models.txt"
