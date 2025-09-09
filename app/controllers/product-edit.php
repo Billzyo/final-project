@@ -4,8 +4,10 @@ $errors = [];
 
 $id = $_GET['id'] ?? null;
 $product = new Product();
+$category = new Category();
 
 $row = $product->first(['id'=>$id]);
+$categories = $category->getAllCategories();
 
 if($_SERVER['REQUEST_METHOD'] == "POST" && $row)
 {

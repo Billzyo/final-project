@@ -306,6 +306,9 @@
 		.category-btn:nth-child(1) { animation-delay: 0.1s; }
 		.category-btn:nth-child(2) { animation-delay: 0.2s; }
 		.category-btn:nth-child(3) { animation-delay: 0.3s; }
+		.category-btn:nth-child(4) { animation-delay: 0.4s; }
+		.category-btn:nth-child(5) { animation-delay: 0.5s; }
+		.category-btn:nth-child(6) { animation-delay: 0.6s; }
 
 		/* Cart Enhancements */
 		.cart-container {
@@ -488,25 +491,34 @@
 			<div class="search-container">
 				<h3 class="mb-3"><i class="fa fa-shopping-bag text-primary"></i> Products</h3>
 				<div class="position-relative">
-					<input onkeyup="check_for_enter_key(event)" oninput="search_item(event)" type="text" class="form-control search-input js-search" placeholder="Search products or scan barcode..." autofocus>
+					<input type="text" class="form-control search-input js-search" placeholder="Search products or scan barcode..." autofocus>
 					<i class="fa fa-search search-icon"></i>
 				</div>
 				
 				<!-- Category Filter Buttons -->
 				<div class="category-filters mt-3">
-					<button onclick="filterByCategory('all')" class="category-btn active" data-category="all">
+					<button class="category-btn active" data-category="all">
 						<i class="fa fa-th-large"></i> ALL
 					</button>
-					<button onclick="filterByCategory('meals')" class="category-btn" data-category="meals">
-						<i class="fa fa-utensils"></i> MEALS
+					<button class="category-btn" data-category="1">
+						<i class="fa fa-birthday-cake"></i> CAKES
 					</button>
-					<button onclick="filterByCategory('drinks')" class="category-btn" data-category="drinks">
+					<button class="category-btn" data-category="2">
+						<i class="fa fa-bread-slice"></i> BREAD & PASTRIES
+					</button>
+					<button class="category-btn" data-category="3">
+						<i class="fa fa-hamburger"></i> FAST FOOD
+					</button>
+					<button class="category-btn" data-category="4">
 						<i class="fa fa-coffee"></i> DRINKS
+					</button>
+					<button class="category-btn" data-category="5">
+						<i class="fa fa-box"></i> OTHERS
 					</button>
 				</div>
 			</div>
 
-			<div onclick="add_item(event)" class="js-products products-grid">
+			<div class="js-products products-grid">
 				<div class="loading-spinner">
 					<div class="spinner"></div>
 				</div>
@@ -540,8 +552,8 @@
 
 	<div class="js-gtotal alert alert-danger" style="font-size:30px">Total: K0.00</div>
 	<div class="">
-		<button onclick="show_modal('amount-paid')" class="btn btn-success my-2 w-100 py-4">Checkout</button>
-		<button onclick="clear_all()" class="btn btn-primary my-2 w-100">Clear All</button>
+		<button id="checkout-btn" class="btn btn-success my-2 w-100 py-4">Checkout</button>
+		<button id="clear-all-btn" class="btn btn-primary my-2 w-100">Clear All</button>
 	</div>
 </div>
 
@@ -550,28 +562,28 @@
 <!--modals-->
 
 	<!--enter amount modal-->
-	<div role="close-button" onclick="hide_modal(event,'amount-paid')" class="js-amount-paid-modal hide" style="animation: appear .5s ease;background-color: #000000bb; width: 100%;height: 100%;position: fixed;left:0px;top:0px;z-index: 4;">
+	<div role="close-button" class="js-amount-paid-modal hide" style="animation: appear .5s ease;background-color: #000000bb; width: 100%;height: 100%;position: fixed;left:0px;top:0px;z-index: 4;">
 
 		<div style="width:500px;min-height:200px;background-color:white;padding:10px;margin:auto;margin-top:100px">
-			<h4>Checkout <button role="close-button" onclick="hide_modal(event,'amount-paid')" class="btn btn-danger float-end p-0 px-2">X</button></h4>
+			<h4>Checkout <button role="close-button" class="btn btn-danger float-end p-0 px-2">X</button></h4>
 			<br>
-			<input onkeyup="if(event.keyCode == 13)validate_amount_paid(event)" type="text" class="js-amount-paid-input form-control" placeholder="Enter amount paid">
+			<input type="text" class="js-amount-paid-input form-control" placeholder="Enter amount paid">
 			<br>
-			<button role="close-button" onclick="hide_modal(event,'amount-paid')" class="btn btn-secondary">Cancel</button>
-			<button onclick="validate_amount_paid(event)" class="btn btn-primary float-end">Next</button>
+			<button role="close-button" class="btn btn-secondary">Cancel</button>
+			<button id="validate-amount-btn" class="btn btn-primary float-end">Next</button>
 		</div>
 	</div>
 	<!--end enter amount modal-->
 
 	<!--change modal-->
-	<div role="close-button" onclick="hide_modal(event,'change')" class="js-change-modal hide" style="animation: appear .5s ease;background-color: #000000bb; width: 100%;height: 100%;position: fixed;left:0px;top:0px;z-index: 4;">
+	<div role="close-button" class="js-change-modal hide" style="animation: appear .5s ease;background-color: #000000bb; width: 100%;height: 100%;position: fixed;left:0px;top:0px;z-index: 4;">
 
 		<div style="width:500px;min-height:200px;background-color:white;padding:10px;margin:auto;margin-top:100px">
-			<h4>Change: <button role="close-button" onclick="hide_modal(event,'change')" class="btn btn-danger float-end p-0 px-2">X</button></h4>
+			<h4>Change: <button role="close-button" class="btn btn-danger float-end p-0 px-2">X</button></h4>
 			<br>
 			<div class="js-change-input form-control text-center" style="font-size:60px">0.00</div>
 			<br>
-			<center><button role="close-button" onclick="hide_modal(event,'change')" class="js-btn-close-change btn btn-lg btn-secondary">Continue</button></center>
+			<center><button role="close-button" class="js-btn-close-change btn btn-lg btn-secondary">Continue</button></center>
 		</div>
 	</div>
 	<!--end change modal-->

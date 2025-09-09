@@ -1,3 +1,5 @@
+console.log('POS.js loaded successfully');
+
 var PRODUCTS 	= [];
 var PHONE   	= [];
 var ITEMS 		= [];
@@ -9,9 +11,119 @@ var CURRENT_CATEGORY = 'all';
 
 var main_input = document.querySelector(".js-search");
 
+// Load initial products when page loads
+function loadInitialProducts() {
+    var data = {};
+    data.data_type = "search";
+    data.text = "";
+    data.category_id = CURRENT_CATEGORY;
+    send_data(data);
+}
+
+// Try both events to ensure products load
+document.addEventListener('DOMContentLoaded', loadInitialProducts);
+window.addEventListener('load', loadInitialProducts);
+
+// Also try immediately if DOM is already ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadInitialProducts);
+} else {
+    loadInitialProducts();
+}
+
+// Function to attach category button event listeners
+function attachCategoryListeners() {
+    var categoryButtons = document.querySelectorAll('.category-btn');
+    console.log('Found category buttons:', categoryButtons.length);
+    
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            var category = this.getAttribute('data-category');
+            console.log('Category button clicked:', category);
+            filterByCategory(category);
+        });
+    });
+}
+
+// Try multiple approaches to attach event listeners
+document.addEventListener('DOMContentLoaded', attachCategoryListeners);
+window.addEventListener('load', attachCategoryListeners);
+
+// Also try immediately if DOM is already ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachCategoryListeners);
+} else {
+    attachCategoryListeners();
+}
+
+// Add other event listeners
+document.addEventListener('DOMContentLoaded', function() {
+    // Add click event listener to products container
+    var productsContainer = document.querySelector('.js-products');
+    if (productsContainer) {
+        productsContainer.addEventListener('click', add_item);
+    }
+    
+    // Add event listeners for checkout and clear buttons
+    var checkoutBtn = document.getElementById('checkout-btn');
+    if (checkoutBtn) {
+        checkoutBtn.addEventListener('click', function() {
+            show_modal('amount-paid');
+        });
+    }
+    
+    var clearAllBtn = document.getElementById('clear-all-btn');
+    if (clearAllBtn) {
+        clearAllBtn.addEventListener('click', clear_all);
+    }
+    
+    // Add event listeners for modal buttons
+    // Amount paid modal
+    var amountPaidModal = document.querySelector('.js-amount-paid-modal');
+    if (amountPaidModal) {
+        amountPaidModal.addEventListener('click', function(e) {
+            if (e.target.getAttribute('role') === 'close-button') {
+                hide_modal(e, 'amount-paid');
+            }
+        });
+    }
+    
+    // Validate amount button
+    var validateAmountBtn = document.getElementById('validate-amount-btn');
+    if (validateAmountBtn) {
+        validateAmountBtn.addEventListener('click', validate_amount_paid);
+    }
+    
+    // Amount paid input enter key
+    var amountPaidInput = document.querySelector('.js-amount-paid-input');
+    if (amountPaidInput) {
+        amountPaidInput.addEventListener('keyup', function(e) {
+            if (e.keyCode === 13) {
+                validate_amount_paid(e);
+            }
+        });
+    }
+    
+    // Change modal
+    var changeModal = document.querySelector('.js-change-modal');
+    if (changeModal) {
+        changeModal.addEventListener('click', function(e) {
+            if (e.target.getAttribute('role') === 'close-button') {
+                hide_modal(e, 'change');
+            }
+        });
+    }
+    
+    // Search input events
+    var searchInput = document.querySelector('.js-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', search_item);
+        searchInput.addEventListener('keyup', check_for_enter_key);
+    }
+});
+
 function search_item(e){
     var text = e.target.value.trim();
-    console.log("Searching for:", text);
     
     // Show loading state
     var mydiv = document.querySelector(".js-products");
@@ -26,6 +138,7 @@ function search_item(e){
     var data = {};
     data.data_type = "search";
     data.text = text;
+    data.category_id = CURRENT_CATEGORY;
     send_data(data);
 }
 
@@ -55,9 +168,17 @@ function send_data(data)
 					}
 				}
 			} else {
-
 				console.log("An error occured. Err Code:"+ajax.status+" Err message:"+ajax.statusText);
 				console.log(ajax);
+				
+				// Show user-friendly error message
+				if (ajax.status === 0) {
+					alert("Network error: Unable to connect to server. Please check your connection.");
+				} else if (ajax.status === 500) {
+					alert("Server error: Please try again or contact support.");
+				} else {
+					alert("Error " + ajax.status + ": " + ajax.statusText);
+				}
 			}
 
 			//clear main input if enter was pressed
@@ -79,48 +200,57 @@ function send_data(data)
 
 function handle_result(result){
 	
-	//console.log(result);.
-	var obj = JSON.parse(result);
-	if(typeof obj != "undefined"){
+	console.log('AJAX Response received:', result);
+	
+	try {
+		var obj = JSON.parse(result);
+		if(typeof obj != "undefined"){
 
 		//valid json
 		if(obj.data_type == "search")
 		{
 			PRODUCTS = obj.data || [];
+			console.log('Products received:', PRODUCTS.length, 'Current category:', CURRENT_CATEGORY);
+			console.log('Product details:', PRODUCTS);
 			
-			// Apply current category filter
-			if (CURRENT_CATEGORY !== 'all') {
-				var filteredProducts = PRODUCTS.filter(product => {
-					var description = product.description.toLowerCase();
-					if (CURRENT_CATEGORY === 'meals') {
-						return description.includes('cake') || 
-							   description.includes('burger') || 
-							   description.includes('bread') || 
-							   description.includes('meal') ||
-							   description.includes('food') ||
-							   description.includes('chips');
-					} else if (CURRENT_CATEGORY === 'drinks') {
-						return description.includes('drink') || 
-							   description.includes('coffee') || 
-							   description.includes('tea') || 
-							   description.includes('juice') ||
-							   description.includes('soda') ||
-							   description.includes('water');
-					}
-					return true;
-				});
-				displayProducts(filteredProducts);
-			} else {
-				displayProducts(PRODUCTS);
-			}
+			// Display products directly (server already filtered by category)
+			displayProducts(PRODUCTS);
 
-			if(BARCODE && PRODUCTS.length == 1){
+				if(BARCODE && PRODUCTS.length == 1){
 				setTimeout(() => {
 					add_item_from_index(0);
 				}, PRODUCTS.length * 100);
 			}
 		}
+		else if(obj.data_type == "checkout")
+		{
+			console.log('Checkout response received:', obj);
+			
+			// Handle successful checkout
+			if(obj.data && obj.data.includes("successfully")) {
+				console.log('Checkout successful!');
+				
+				// Clear the cart
+				ITEMS = [];
+				GTOTAL = 0;
+				CHANGE = 0;
+				refresh_items_display();
+				
+				// Hide any open modals
+				hide_modal(true, 'change');
+				
+				// Show success message
+				alert("Transaction completed successfully!");
+			} else {
+				console.log('Checkout failed or unknown response');
+			}
+		}
 		
+	}
+	} catch (error) {
+		console.error('Error parsing JSON response:', error);
+		console.error('Raw response:', result);
+		alert('Error processing server response. Please try again.');
 	}
 
 }
@@ -130,8 +260,7 @@ function product_html(data,index)
 	return `
 		<div class="product-card" data-index="${index}">
 			<div class="product-image-container">
-				<img index="${index}" src="${data.image}" class="product-image" alt="${data.description}" 
-					 onload="handleImageLoad(this)" onerror="handleImageError(this)">
+				<img index="${index}" src="${data.image}" class="product-image" alt="${data.description}">
 			</div>
 			<div class="product-info">
 				<div class="product-title">${data.description}</div>
@@ -154,6 +283,7 @@ function handleImageError(img) {
 
 // Category filtering function
 function filterByCategory(category) {
+	console.log('Filtering by category:', category);
 	CURRENT_CATEGORY = category;
 	
 	// Update active button
@@ -162,47 +292,50 @@ function filterByCategory(category) {
 	});
 	document.querySelector(`[data-category="${category}"]`).classList.add('active');
 	
-	// Filter products based on category
-	var filteredProducts = PRODUCTS;
+	// Show loading state
+	var mydiv = document.querySelector(".js-products");
+	mydiv.innerHTML = `
+		<div class="loading-spinner">
+			<div class="spinner"></div>
+		</div>
+	`;
 	
-	if (category !== 'all') {
-		filteredProducts = PRODUCTS.filter(product => {
-			var description = product.description.toLowerCase();
-			if (category === 'meals') {
-				return description.includes('cake') || 
-					   description.includes('burger') || 
-					   description.includes('bread') || 
-					   description.includes('meal') ||
-					   description.includes('food') ||
-					   description.includes('chips');
-			} else if (category === 'drinks') {
-				return description.includes('drink') || 
-					   description.includes('coffee') || 
-					   description.includes('tea') || 
-					   description.includes('juice') ||
-					   description.includes('soda') ||
-					   description.includes('water');
-			}
-			return true;
-		});
-	}
-	
-	// Display filtered products
-	displayProducts(filteredProducts);
+	// Send request to get products for this category
+	var data = {};
+	data.data_type = "search";
+	data.text = "";
+	data.category_id = category;
+	console.log('Sending AJAX data:', data);
+	send_data(data);
 }
 
 // Function to display products with animation
 function displayProducts(products) {
 	var mydiv = document.querySelector(".js-products");
+	
+	// Clear the container completely
 	mydiv.innerHTML = "";
 	
 	if (products.length > 0) {
-		// Add products with staggered animation
+		// Build all HTML at once to avoid duplicates
+		var allHTML = "";
 		for (var i = 0; i < products.length; i++) {
-			setTimeout(() => {
-				mydiv.innerHTML += product_html(products[i], i);
-			}, i * 100);
+			allHTML += product_html(products[i], i);
 		}
+		
+		// Set all HTML at once
+		mydiv.innerHTML = allHTML;
+		
+		// Add image load/error event listeners after HTML is set
+		var images = mydiv.querySelectorAll('.product-image');
+		images.forEach(function(img) {
+			img.addEventListener('load', function() {
+				handleImageLoad(this);
+			});
+			img.addEventListener('error', function() {
+				handleImageError(this);
+			});
+		});
 	} else {
 		// Show empty state
 		mydiv.innerHTML = `
@@ -241,16 +374,21 @@ return `
 
 function add_item_from_index(index)
 {
-		// Add visual feedback
-		var productCard = document.querySelector(`[data-index="${index}"]`);
-		if (productCard) {
-			productCard.style.transform = 'scale(0.95)';
-			productCard.style.boxShadow = '0 0 20px rgba(0,123,255,0.5)';
-			setTimeout(() => {
-				productCard.style.transform = '';
-				productCard.style.boxShadow = '';
-			}, 200);
-		}
+	if (!PRODUCTS[index]) {
+		console.error('No product found at index:', index);
+		return;
+	}
+	
+	// Add visual feedback
+	var productCard = document.querySelector(`[data-index="${index}"]`);
+	if (productCard) {
+		productCard.style.transform = 'scale(0.95)';
+		productCard.style.boxShadow = '0 0 20px rgba(0,123,255,0.5)';
+		setTimeout(() => {
+			productCard.style.transform = '';
+			productCard.style.boxShadow = '';
+		}, 200);
+	}
 
 		//check if items exists
 		for (var i = ITEMS.length - 1; i >= 0; i--) {
@@ -269,15 +407,25 @@ function add_item_from_index(index)
 
 		ITEMS.push(temp);
 		refresh_items_display();
-
 }
 
 function add_item(e)
 {
+	var index = null;
 
+	// Check if clicked element is an image
 	if(e.target.tagName == "IMG"){
-		var index = e.target.getAttribute("index");
-
+		index = e.target.getAttribute("index");
+	} 
+	// Check if clicked element is inside a product card
+	else {
+		var productCard = e.target.closest('.product-card');
+		if (productCard) {
+			index = productCard.getAttribute('data-index');
+		}
+	}
+	
+	if (index !== null) {
 		add_item_from_index(index);
 	}
 }
@@ -285,17 +433,25 @@ function add_item(e)
 function refresh_items_display()
 {
 	var item_count = document.querySelector(".js-item-count");
-	var old_count = parseInt(item_count.innerHTML) || 0;
-	var new_count = ITEMS.length;
+	console.log('Cart count element found:', item_count);
+	console.log('Current ITEMS length:', ITEMS.length);
 	
-	item_count.innerHTML = new_count;
-	
-	// Add animation to cart count
-	if (new_count > old_count) {
-		item_count.style.animation = 'bounce 0.6s ease';
-		setTimeout(() => {
-			item_count.style.animation = '';
-		}, 600);
+	if (item_count) {
+		var old_count = parseInt(item_count.innerHTML) || 0;
+		var new_count = ITEMS.length;
+		
+		console.log('Updating cart count from', old_count, 'to', new_count);
+		item_count.innerHTML = new_count;
+		
+		// Add animation to cart count
+		if (new_count > old_count) {
+			item_count.style.animation = 'bounce 0.6s ease';
+			setTimeout(() => {
+				item_count.style.animation = '';
+			}, 600);
+		}
+	} else {
+		console.error('Cart count element not found!');
 	}
 
 	var items_div = document.querySelector(".js-items");
@@ -312,9 +468,9 @@ function refresh_items_display()
 			</tr>
 		`;
 	} else {
-		for (var i = ITEMS.length - 1; i >= 0; i--) {
-			items_div.innerHTML += item_html(ITEMS[i],i);
-			grand_total += (ITEMS[i].qty * ITEMS[i].amount);
+	for (var i = ITEMS.length - 1; i >= 0; i--) {
+		items_div.innerHTML += item_html(ITEMS[i],i);
+		grand_total += (ITEMS[i].qty * ITEMS[i].amount);
 		}
 	}
 	
@@ -522,11 +678,22 @@ function hide_modal(e,modal)
 
 function print_receipt(obj)
 {
-	var vars = JSON.stringify(obj);
+	try {
+		var vars = JSON.stringify(obj);
+		console.log('Opening receipt window with data:', obj);
 
-	RECEIPT_WINDOW = window.open('index.php?pg=print&vars='+vars,'printpage',"width=500px;");
-
-	setTimeout(close_receipt_window,2000);
+		RECEIPT_WINDOW = window.open('index.php?pg=print&vars='+vars,'printpage',"width=500px;");
+		
+		if (RECEIPT_WINDOW) {
+			setTimeout(close_receipt_window, 2000);
+		} else {
+			console.error('Failed to open receipt window - popup blocked?');
+			alert('Receipt window could not be opened. Please check if popups are blocked.');
+		}
+	} catch (error) {
+		console.error('Error in print_receipt:', error);
+		alert('Error generating receipt: ' + error.message);
+	}
 }
 
 function close_receipt_window()

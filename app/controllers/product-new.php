@@ -2,6 +2,8 @@
 
 
 $errors = [];
+$category = new Category();
+$categories = $category->getAllCategories();
 
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {

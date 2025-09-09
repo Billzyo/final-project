@@ -2,8 +2,41 @@
 // Set the default timezone to ensure correct time is captured
 date_default_timezone_set('Africa/Lusaka');
 
-// Require composer autoloader
-require_once __DIR__ . '/../../vendor/autoload.php';
+// Require autoloader (if available)
+if (file_exists(__DIR__ . '/../../vendor/autoload.php')) {
+    require_once __DIR__ . '/../../vendor/autoload.php';
+} else {
+    // Fallback: Create a simple mPDF stub
+    if (!class_exists('Mpdf\Mpdf')) {
+        class Mpdf {
+            private $config;
+            
+            public function __construct($config = []) {
+                $this->config = $config;
+            }
+            
+            public function WriteHTML($html) {
+                // Log the HTML content for debugging
+                error_log("mPDF WriteHTML called with: " . substr($html, 0, 200) . "...");
+            }
+            
+            public function Output($filepath, $mode = 'F') {
+                // Create a simple text receipt as fallback
+                $content = "=== RECEIPT ===\n";
+                $content .= "Generated at: " . date('Y-m-d H:i:s') . "\n";
+                $content .= "File: $filepath\n";
+                $content .= "Mode: $mode\n\n";
+                $content .= "Note: This is a fallback receipt. Install mPDF for proper PDF generation.\n";
+                
+                file_put_contents($filepath, $content);
+                error_log("Fallback receipt created: $filepath");
+            }
+        }
+        
+        // Create namespace alias
+        class_alias('Mpdf', 'Mpdf\Mpdf');
+    }
+}
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $WshShell = new COM("WScript.Shell");

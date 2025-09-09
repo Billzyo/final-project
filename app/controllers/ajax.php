@@ -24,20 +24,26 @@ if ($OBJ['data_type'] == "search") {
                 error_log("AJAX Search: Product instance created");
                 $limit = 20;
 
-                // Capture the phone number
+                // Capture the phone number and category
                 $phone = isset($OBJ['phone']) ? $OBJ['phone'] : ''; 
-                error_log("AJAX Search: Phone captured");
+                $category_id = isset($OBJ['category_id']) ? $OBJ['category_id'] : null;
+                error_log("AJAX Search: Phone and category captured - Category ID: " . $category_id . " (Type: " . gettype($category_id) . ")");
 
                 if (!empty($OBJ['text'])) {
-                    $barcode = $OBJ['text'];
-                    $text = "%" . $OBJ['text'] . "%";
+                    $search_text = $OBJ['text'];
                     error_log("AJAX Search: Search text: " . $OBJ['text']);
-                    $query = "select * from products where description like :find OR barcode = :barcode order by views desc limit $limit";
-                    $rows = $productClass->query($query, ['find' => $text, 'barcode' => $barcode]);
-                    error_log("AJAX Search: Query executed");
+                    $rows = $productClass->searchProductsWithCategory($search_text, $category_id, $limit);
+                    error_log("AJAX Search: Search query executed");
                 } else {
-                    $rows = $productClass->getAll($limit, 0, 'desc', 'views');
-                    error_log("AJAX Search: getAll executed");
+                    error_log("AJAX Search: No search text, checking category filter");
+                    error_log("AJAX Search: category_id = '$category_id', category_id !== 'all' = " . ($category_id !== 'all' ? 'true' : 'false'));
+                    if ($category_id && $category_id !== 'all') {
+                        $rows = $productClass->getProductsByCategory($category_id, $limit, 0, 'desc', 'views');
+                        error_log("AJAX Search: Category query executed for category: $category_id");
+                    } else {
+                        $rows = $productClass->getProductsWithCategories($limit, 0, 'desc', 'views');
+                        error_log("AJAX Search: All products query executed");
+                    }
                 }
 
                 if ($rows) {

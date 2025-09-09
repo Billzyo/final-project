@@ -22,6 +22,21 @@
                 <?php endif; ?>
             </div>
 
+            <div class="mb-3">
+                <label for="categoryControlInput1" class="form-label">Product Category</label>
+                <select name="category_id" class="form-control <?=!empty($errors['category_id']) ? 'border-danger':''?>" id="categoryControlInput1">
+                    <option value="">Select a category</option>
+                    <?php foreach($categories as $cat): ?>
+                        <option value="<?= $cat['id'] ?>" <?= set_value('category_id') == $cat['id'] ? 'selected' : '' ?>>
+                            <?= $cat['name'] ?>
+                        </option>
+                    <?php endforeach; ?>
+                </select>
+                <?php if(!empty($errors['category_id'])): ?>
+                    <small class="text-danger"><?= $errors['category_id'] ?></small>
+                <?php endif; ?>
+            </div>
+
             <div class="input-group mb-3">
                 <span class="input-group-text">Qty:</span>
                 <input name="qty" value="1" type="number" class="form-control <?=!empty($errors['qty']) ? 'border-danger':''?>" placeholder="Quantity" aria-label="Quantity">
