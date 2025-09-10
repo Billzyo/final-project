@@ -22,8 +22,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } 
     // ✅ Fallback: direct POST of phone + receipt_no
     elseif (!empty($_POST['phone']) && !empty($_POST['receipt_no'])) {
-    $phone = $_POST['phone'];
-    $receipt_no = $_POST['receipt_no'];
+        $phone = $_POST['phone'];
+        $receipt_no = $_POST['receipt_no'];
         $method_used = "Direct parameters";
     } else {
         $error = "Invalid request: missing data";
@@ -31,8 +31,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($phone && $receipt_no) {
         // Fetch sales data
-    $sales = $db->query("SELECT * FROM sales WHERE receipt_no = ?", [$receipt_no]);
-    if (!$sales || count($sales) === 0) {
+        $sales = $db->query("SELECT * FROM sales WHERE receipt_no = ?", [$receipt_no]);
+        if (!$sales || count($sales) === 0) {
             $error = "Transaction not found for receipt: " . htmlspecialchars($receipt_no);
         } else {
             // Build SMS message
@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             if ($sent) {
                 $success = "Receipt SMS resent successfully to $phone (Method: $method_used)";
-    } else {
+            } else {
                 $error = "Failed to resend SMS to $phone (Method: $method_used)";
             }
         }
@@ -91,30 +91,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['bulk_action']) && iss
                 $sales = $db->query("SELECT * FROM sales WHERE receipt_no = ?", [$receipt_no]);
                 if ($sales && count($sales) > 0) {
                     // Build SMS message
-        $message = "POS RECEIPT\n";
-        $message .= "Receipt #: " . $receipt_no . "\n";
-        $message .= "Date: " . date("jS M, Y H:i", strtotime($sales[0]['date'])) . "\n";
-        $grand_total = 0;
-        foreach ($sales as $item) {
-            $item_total = $item['qty'] * $item['amount'];
-            $grand_total += $item_total;
-            $message .= "• " . substr($item['description'], 0, 20) . " x" . $item['qty'] .
-                        " @ K" . number_format($item['amount'], 2) .
-                        " = K" . number_format($item_total, 2) . "\n";
-        }
-        $message .= "----\n";
-        $message .= "TOTAL: K" . number_format($grand_total, 2) . "\n";
-        $message .= "Thank you!";
+                    $message = "POS RECEIPT\n";
+                    $message .= "Receipt #: " . $receipt_no . "\n";
+                    $message .= "Date: " . date("jS M, Y H:i", strtotime($sales[0]['date'])) . "\n";
+                    $grand_total = 0;
+                    foreach ($sales as $item) {
+                        $item_total = $item['qty'] * $item['amount'];
+                        $grand_total += $item_total;
+                        $message .= "• " . substr($item['description'], 0, 20) . " x" . $item['qty'] .
+                                    " @ K" . number_format($item['amount'], 2) .
+                                    " = K" . number_format($item_total, 2) . "\n";
+                    }
+                    $message .= "----\n";
+                    $message .= "TOTAL: K" . number_format($grand_total, 2) . "\n";
+                    $message .= "Thank you!";
 
-        // Send SMS
+                    // Send SMS
                     require_once 'send_receipt.php';
-        $sent = send_sms($phone, $message);
+                    $sent = send_sms($phone, $message);
 
-        // Log SMS attempt
-        $response_text = $sent ? 'Success' : 'Failed';
-        $db->query("INSERT INTO sms_logs (phone, message, receipt_no, date_sent, response) VALUES (?, ?, ?, NOW(), ?)", [$phone, $message, $receipt_no, $response_text]);
+                    // Log SMS attempt
+                    $response_text = $sent ? 'Success' : 'Failed';
+                    $db->query("INSERT INTO sms_logs (phone, message, receipt_no, date_sent, response) VALUES (?, ?, ?, NOW(), ?)", [$phone, $message, $receipt_no, $response_text]);
 
-        if ($sent) {
+                    if ($sent) {
                         $resend_count++;
                     } else {
                         $error_count++;
