@@ -6688,3 +6688,1147 @@ Stack trace:
 [10-Sep-2025 19:08:57 Africa/Lusaka] AJAX Search: All products query executed
 [10-Sep-2025 19:08:57 Africa/Lusaka] AJAX Search: Rows processed
 [10-Sep-2025 19:08:57 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:21 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:22 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:44 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:46 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 13:56:50 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:03:49 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:03:49 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:03:49 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[12-Sep-2025 14:03:49 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:03:49 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:03:50 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:03:51 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:06:16 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:06:51 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:33 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:34 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:42 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:43 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:08:55 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:12:55 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 3 (Type: string)
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: category_id = '3', category_id !== 'all' = true
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Category query executed for category: 3
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 3 (Type: string)
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: category_id = '3', category_id !== 'all' = true
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Category query executed for category: 3
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:13:00 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:13:02 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:13:04 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:15:29 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:17:44 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Response sent
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Start
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Product instance created
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: All products query executed
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Rows processed
+[12-Sep-2025 14:17:53 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:54:01 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:55:55 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:55:56 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:56:53 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:07 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:23 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:25 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 12:57:37 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:56:27 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:57:54 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:58:50 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Response sent
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Start
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Product instance created
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: All products query executed
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Rows processed
+[15-Sep-2025 13:59:44 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:05:05 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:05:24 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:15:24 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:15:25 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:15:28 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:15:43 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:17:51 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:22:02 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:22:03 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:22:21 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:25:28 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 1 (Type: string)
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: category_id = '1', category_id !== 'all' = true
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Category query executed for category: 1
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:31:20 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 2 (Type: string)
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: category_id = '2', category_id !== 'all' = true
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Category query executed for category: 2
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:31:21 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 4 (Type: string)
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: category_id = '4', category_id !== 'all' = true
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Category query executed for category: 4
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: 4 (Type: string)
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: category_id = '4', category_id !== 'all' = true
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Category query executed for category: 4
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:31:22 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:31:34 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:34:36 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:40:00 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:03 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:32 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:41 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:51 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:42:55 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:43:15 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:44:29 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:47:41 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 21:51:41 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:03:17 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:03:42 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:05:22 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:05:23 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:05:23 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:05:23 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:05:25 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:05:40 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:06:01 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:06:14 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:06:31 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:08:46 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:16:09 Africa/Lusaka] AJAX Search: Response sent
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: Start
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: Product instance created
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: All products query executed
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: Rows processed
+[17-Sep-2025 22:16:59 Africa/Lusaka] AJAX Search: Response sent

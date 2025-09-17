@@ -591,6 +591,6 @@
 	
 <!--end modals-->
 
-<script src="assets/js/pos.js"></script>
+<script src="assets/js/pos.js?v=<?php echo time(); ?>"></script>
 
 <?php require views_path('partials/footer');?>

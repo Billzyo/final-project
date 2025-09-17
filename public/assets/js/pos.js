@@ -110,6 +110,22 @@ document.addEventListener('DOMContentLoaded', function() {
         changeModal.addEventListener('click', function(e) {
             if (e.target.getAttribute('role') === 'close-button') {
                 hide_modal(e, 'change');
+                
+                // Perform checkout if checkout data exists
+                if (window.checkoutData) {
+                    performCheckout(window.checkoutData);
+                    window.checkoutData = null; // Clear the data
+                }
+                
+                // Clear items after change modal is closed
+                ITEMS = [];
+                refresh_items_display();
+                
+                // Reload products
+                send_data({
+                    data_type:"search",
+                    text:""
+                });
             }
         });
     }
@@ -396,7 +412,6 @@ function add_item_from_index(index)
 			if(ITEMS[i].id == PRODUCTS[index].id)
 			{
 				ITEMS[i].qty += 1;
-				ITEMS[i].phone = phone;
 				refresh_items_display();
 				return;
 			}
@@ -539,7 +554,6 @@ function check_for_enter_key(e)
 
 function show_modal(modal)
 {
-
 	if(modal == "amount-paid"){
 
 		if(ITEMS.length == 0){
@@ -556,10 +570,13 @@ function show_modal(modal)
 	if(modal == "change"){
 
 		var mydiv = document.querySelector(".js-change-modal");
-		mydiv.classList.remove("hide");
-
-		mydiv.querySelector(".js-change-input").innerHTML = CHANGE;
-		mydiv.querySelector(".js-btn-close-change").focus();
+		
+		if (mydiv) {
+			mydiv.classList.remove("hide");
+			
+			mydiv.querySelector(".js-change-input").innerHTML = CHANGE;
+			mydiv.querySelector(".js-btn-close-change").focus();
+		}
 	}
 
 
@@ -567,7 +584,6 @@ function show_modal(modal)
 
 function hide_modal(e,modal)
 {
-	
 	if(e == true || e.target.getAttribute("role") == "close-button")
 	{
 		if(modal == "amount-paid"){
@@ -577,7 +593,7 @@ function hide_modal(e,modal)
 		if(modal == "change"){
 			var mydiv = document.querySelector(".js-change-modal");
 			mydiv.classList.add("hide");
-		}			
+		}		
 				
 	}
 
@@ -585,7 +601,6 @@ function hide_modal(e,modal)
 
 	function validate_amount_paid(e)
 	{
-
 		var amount = e.currentTarget.parentNode.querySelector(".js-amount-paid-input").value.trim();
 		
 		if(amount == "")
@@ -608,79 +623,77 @@ function hide_modal(e,modal)
 		hide_modal(true,'amount-paid');
 		show_modal('change');
 
-		//remove unwanted information
-		var ITEMS_NEW = [];
-		for (var i = 0; i < ITEMS.length; i++) {
-			
-			var tmp = {};
-			tmp.id = ITEMS[i]['id'];
-			tmp.qty = ITEMS[i]['qty'];
-
-			ITEMS_NEW.push(tmp);
-		}
-
-		// Function to get the phone number from the specific input field
-		function get_phone_from_input() {
-		    var phoneInput = document.getElementById("phone-input");  // Get the phone number input field by ID
-		    return phoneInput.value;  // Get the value entered by the user
-		}
-
-		// Function to add phone to each item in the cart
-		function add_phone_to_items(phone) {
-		    // Loop through each item in ITEMS_NEW and add the phone number
-		    for (var i = 0; i < ITEMS_NEW.length; i++) {
-		        ITEMS_NEW[i].phone = phone;  // Add the phone number to each item
-		    }
-		}
-
-		// Send cart data through AJAX
-		function send_cart_data(phone) {
-		    // Add the phone number to each item in the cart
-		    add_phone_to_items(phone);
-
-		    // Send the cart data including the phone number
-		    send_data({
-		        data_type: "checkout",
-		        text: ITEMS_NEW
-		    });
-		}
-
-		// Example Usage: Get the phone from the input field and send cart data
-		var userPhone = get_phone_from_input();  // Get phone number from the input field
-		if (userPhone) {  // Ensure phone number is not empty
-		    send_cart_data(userPhone);
-		} else {
-		    alert("Please enter a phone number.");  // Alert if phone number is empty
-		}
-
-		// Receipt SMS will be sent by the backend during checkout
-
-		//open receipt page
-		print_receipt({
-			company:'Pos System',
-			amount:amount,
-			change:CHANGE,
-			gtotal:GTOTAL,
-			data:ITEMS
-		});
-
-		//clear items
-		ITEMS = [];
-		refresh_items_display();
-
-		//reload products
-		send_data({
-
-			data_type:"search",
-			text:""
-		});
+		// Store checkout data for later use when change modal is closed
+		window.checkoutData = {
+			amount: amount,
+			change: CHANGE,
+			gtotal: GTOTAL,
+			items: ITEMS.slice() // Create a copy of ITEMS
+		};
 	}
+
+function performCheckout(checkoutData) {
+	//remove unwanted information
+	var ITEMS_NEW = [];
+	for (var i = 0; i < checkoutData.items.length; i++) {
+		
+		var tmp = {};
+		tmp.id = checkoutData.items[i]['id'];
+		tmp.qty = checkoutData.items[i]['qty'];
+
+		ITEMS_NEW.push(tmp);
+	}
+
+	// Function to get the phone number from the specific input field
+	function get_phone_from_input() {
+	    var phoneInput = document.getElementById("phone-input");  // Get the phone number input field by ID
+	    return phoneInput.value;  // Get the value entered by the user
+	}
+
+	// Function to add phone to each item in the cart
+	function add_phone_to_items(phone) {
+	    // Loop through each item in ITEMS_NEW and add the phone number
+	    for (var i = 0; i < ITEMS_NEW.length; i++) {
+	        ITEMS_NEW[i].phone = phone;  // Add the phone number to each item
+	    }
+	}
+
+	// Send cart data through AJAX
+	function send_cart_data(phone) {
+	    // Add the phone number to each item in the cart
+	    add_phone_to_items(phone);
+
+	    // Send the cart data including the phone number
+	    send_data({
+	        data_type: "checkout",
+	        text: ITEMS_NEW
+	    });
+	}
+
+	// Example Usage: Get the phone from the input field and send cart data
+	var userPhone = get_phone_from_input();  // Get phone number from the input field
+	if (userPhone) {  // Ensure phone number is not empty
+	    send_cart_data(userPhone);
+	} else {
+	    alert("Please enter a phone number.");  // Alert if phone number is empty
+	}
+
+	// Receipt SMS will be sent by the backend during checkout
+
+	//open receipt page
+	print_receipt({
+		company:'Pos System',
+		amount: checkoutData.amount,
+		change: checkoutData.change,
+		gtotal: checkoutData.gtotal,
+		data: checkoutData.items
+	});
+}
 
 function print_receipt(obj)
 {
 	try {
 		var vars = JSON.stringify(obj);
-		console.log('Opening receipt window with data:', obj);
 
 		RECEIPT_WINDOW = window.open('index.php?pg=print&vars='+vars,'printpage',"width=500px;");
 		
@@ -691,7 +704,6 @@ function print_receipt(obj)
 			alert('Receipt window could not be opened. Please check if popups are blocked.');
 		}
 	} catch (error) {
-		console.error('Error in print_receipt:', error);
 		alert('Error generating receipt: ' + error.message);
 	}
 }
