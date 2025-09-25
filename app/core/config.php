@@ -3,6 +3,6 @@
 define("APP_NAME", "Pos System");
 
 // Twilio SMS API configuration
-define("TWILIO_SID", "your_twilio_account_sid_here");
-define("TWILIO_AUTH_TOKEN", "your_twilio_auth_token_here");
-define("TWILIO_PHONE_NUMBER", "your_twilio_phone_number_here");
+define("TWILIO_SID", "AC9b4f2817c2837d434aa56efff0de4d45");
+define("TWILIO_AUTH_TOKEN", "63544631693feb58db9843c111fdcb18");
+define("TWILIO_PHONE_NUMBER", "+15106003965");

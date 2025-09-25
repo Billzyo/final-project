@@ -36,19 +36,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $error = "Transaction not found for receipt: " . htmlspecialchars($receipt_no);
         } else {
             // Build SMS message
-            $message = "POS RECEIPT\n";
-            $message .= "Receipt #: " . $receipt_no . "\n";
-            $message .= "Date: " . date("jS M, Y H:i", strtotime($sales[0]['date'])) . "\n";
-
+            $message = "Pos System\n";
+            $message .= "Receipt No: " . $receipt_no . "\n";
+            $message .= "Date: " . date("jS M, Y", strtotime($sales[0]['date'])) . "\n";
+            $message .= "Items:\n";
             $grand_total = 0;
             foreach ($sales as $item) {
                 $item_total = $item['qty'] * $item['amount'];
                 $grand_total += $item_total;
-                $message .= "• " . substr($item['description'], 0, 20) . " x" . $item['qty'] .
+                $message .= "- " . $item['description'] . " x" . $item['qty'] .
                             " @ K" . number_format($item['amount'], 2) .
                             " = K" . number_format($item_total, 2) . "\n";
             }
-            $message .= "----\nTOTAL: K" . number_format($grand_total, 2) . "\nThank you!";
+            $message .= "TOTAL: K" . number_format($grand_total, 2) . "\n";
+            $message .= "Thank you for your purchase!";
 
             // Send SMS
             require_once 'send_receipt.php';
@@ -91,20 +92,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['bulk_action']) && iss
                 $sales = $db->query("SELECT * FROM sales WHERE receipt_no = ?", [$receipt_no]);
                 if ($sales && count($sales) > 0) {
                     // Build SMS message
-        $message = "POS RECEIPT\n";
-        $message .= "Receipt #: " . $receipt_no . "\n";
-        $message .= "Date: " . date("jS M, Y H:i", strtotime($sales[0]['date'])) . "\n";
+        $message = "Pos System\n";
+        $message .= "Receipt No: " . $receipt_no . "\n";
+        $message .= "Date: " . date("jS M, Y", strtotime($sales[0]['date'])) . "\n";
+        $message .= "Items:\n";
         $grand_total = 0;
         foreach ($sales as $item) {
             $item_total = $item['qty'] * $item['amount'];
             $grand_total += $item_total;
-            $message .= "• " . substr($item['description'], 0, 20) . " x" . $item['qty'] .
+            $message .= "- " . $item['description'] . " x" . $item['qty'] .
                         " @ K" . number_format($item['amount'], 2) .
                         " = K" . number_format($item_total, 2) . "\n";
         }
-        $message .= "----\n";
         $message .= "TOTAL: K" . number_format($grand_total, 2) . "\n";
-        $message .= "Thank you!";
+        $message .= "Thank you for your purchase!";
 
         // Send SMS
                     require_once 'send_receipt.php';

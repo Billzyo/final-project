@@ -1,0 +1,376 @@
+Array
+(
+    [timestamp] => 2025-09-17 23:35:49
+    [phone] => +260973519161
+    [message] => POS RECEIPT
+Receipt #: 81
+Date: 17th Sep, 2025 22:16
+• burger and chips x1 @ K90.00 = K90.00
+----
+TOTAL: K90.00
+Thank you!
+    [response] => 
+    [url] => http://45.215.249.132/send
+)
+Array
+(
+    [timestamp] => 2025-09-17 23:36:04
+    [phone] => +260973519161
+    [message] => POS RECEIPT
+Receipt #: 81
+Date: 17th Sep, 2025 22:16
+• burger and chips x1 @ K90.00 = K90.00
+----
+TOTAL: K90.00
+Thank you!
+    [response] => 
+    [url] => http://45.215.249.132/send
+)
+Array
+(
+    [timestamp] => 2025-09-17 23:36:36
+    [phone] => +260980060705
+    [message] => POS RECEIPT
+Receipt #: 78
+Date: 17th Sep, 2025 22:03
+• drink1 x1 @ K30.00 = K30.00
+----
+TOTAL: K30.00
+Thank you!
+    [response] => 
+    [url] => http://45.215.249.132/send
+)
+Array
+(
+    [timestamp] => 2025-09-17 23:36:51
+    [phone] => +260980060705
+    [message] => POS RECEIPT
+Receipt #: 78
+Date: 17th Sep, 2025 22:03
+• drink1 x1 @ K30.00 = K30.00
+----
+TOTAL: K30.00
+Thank you!
+    [response] => 
+    [url] => http://45.215.249.132/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:15:09
+    [phone] => +260980060705
+    [message] => POS RECEIPT
+Receipt #: 78
+Date: 17th Sep, 2025 22:03
+• drink1 x1 @ K30.00 = K30.00
+----
+TOTAL: K30.00
+Thank you!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:15:12
+    [phone] => +260980060705
+    [message] => POS RECEIPT
+Receipt #: 78
+Date: 17th Sep, 2025 22:03
+• drink1 x1 @ K30.00 = K30.00
+----
+TOTAL: K30.00
+Thank you!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:25:08
+    [phone] => +260980060705
+    [message] => POS RECEIPT
+Receipt #: 78
+Date: 17th Sep, 2025 22:03
+• drink1 x1 @ K30.00 = K30.00
+----
+TOTAL: K30.00
+Thank you!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:25:13
+    [phone] => +260980060705
+    [message] => POS RECEIPT
+Receipt #: 78
+Date: 17th Sep, 2025 22:03
+• drink1 x1 @ K30.00 = K30.00
+----
+TOTAL: K30.00
+Thank you!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:29:29
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 82
+Date: 18th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+- burger and chips x1 @ K90.00 = K90.00
+TOTAL: K120.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:29:31
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 82
+Date: 18th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+- burger and chips x1 @ K90.00 = K90.00
+TOTAL: K120.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:38:50
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 82
+Date: 18th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+- burger and chips x1 @ K90.00 = K90.00
+TOTAL: K120.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:38:52
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 82
+Date: 18th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+- burger and chips x1 @ K90.00 = K90.00
+TOTAL: K120.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:39:03
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 78
+Date: 17th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 09:39:07
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 78
+Date: 17th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.156.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:29:33
+    [phone] => +260976649911
+    [message] => Pos System
+Receipt No: 91
+Date: 18th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:29:37
+    [phone] => +260976649911
+    [message] => Pos System
+Receipt No: 91
+Date: 18th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:30:37
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 78
+Date: 17th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:30:41
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 78
+Date: 17th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:37:34
+    [phone] => +260976649911
+    [message] => Pos System
+Receipt No: 92
+Date: 18th Sep, 2025
+Items:
+- chocolate cake x1 @ K400.00 = K400.00
+TOTAL: K400.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:37:37
+    [phone] => +260976649911
+    [message] => Pos System
+Receipt No: 92
+Date: 18th Sep, 2025
+Items:
+- chocolate cake x1 @ K400.00 = K400.00
+TOTAL: K400.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:42:48
+    [phone] => +260976649911
+    [message] => Pos System
+Receipt No: 92
+Date: 18th Sep, 2025
+Items:
+- chocolate cake x1 @ K400.00 = K400.00
+TOTAL: K400.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:42:51
+    [phone] => +260976649911
+    [message] => Pos System
+Receipt No: 92
+Date: 18th Sep, 2025
+Items:
+- chocolate cake x1 @ K400.00 = K400.00
+TOTAL: K400.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:43:14
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 78
+Date: 17th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => success
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-18 11:43:26
+    [phone] => +260980060705
+    [message] => Pos System
+Receipt No: 78
+Date: 17th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+TOTAL: K30.00
+Thank you for your purchase!
+    [response] => 
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-25 10:57:39
+    [phone] => +260968040114
+    [message] => Pos System
+Receipt No: 93
+Date: 25th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+- Layer Cake x1 @ K600.00 = K600.00
+- whipped Cream Cake x1 @ K500.00 = K500.00
+- chocolate cake x1 @ K400.00 = K400.00
+- burger and chips x1 @ K90.00 = K90.00
+TOTAL: K1,620.00
+Thank you for your purchase!
+    [response] => 
+    [url] => http://192.168.211.145/send
+)
+Array
+(
+    [timestamp] => 2025-09-25 10:57:54
+    [phone] => +260968040114
+    [message] => Pos System
+Receipt No: 93
+Date: 25th Sep, 2025
+Items:
+- drink1 x1 @ K30.00 = K30.00
+- Layer Cake x1 @ K600.00 = K600.00
+- whipped Cream Cake x1 @ K500.00 = K500.00
+- chocolate cake x1 @ K400.00 = K400.00
+- burger and chips x1 @ K90.00 = K90.00
+TOTAL: K1,620.00
+Thank you for your purchase!
+    [response] => 
+    [url] => http://192.168.211.145/send
+)
