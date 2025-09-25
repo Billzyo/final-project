@@ -323,8 +323,16 @@ $logs = $db->query($logs_query, $params);
                                 <td><?= htmlspecialchars($log['receipt_no']) ?></td>
                                 <td><?= htmlspecialchars($log['date_sent']) ?></td>
                                 <td>
-                                    <span class="status-badge <?= strtolower($log['response']) === 'success' ? 'status-success' : 'status-failed' ?>">
-                                        <?= htmlspecialchars($log['response']) ?>
+                                    <?php 
+                                        $raw_response = is_string($log['response']) ? trim($log['response']) : '';
+                                        $is_success = strtolower($raw_response) === 'success';
+                                        $is_failed = strtolower($raw_response) === 'failed';
+                                        $is_pending = ($raw_response === 'SMS data sent to Arduino GSM module on COM12.');
+                                        $display_response = $is_pending ? 'pending' : $raw_response;
+                                        $status_class = $is_success ? 'status-success' : ($is_failed ? 'status-failed' : 'status-pending');
+                                    ?>
+                                    <span class="status-badge <?= $status_class ?>">
+                                        <?= htmlspecialchars($display_response) ?>
                                     </span>
                                 </td>
                                 <td><?= htmlspecialchars($log['message_preview']) ?>...</td>

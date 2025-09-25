@@ -96,6 +96,10 @@ tr:hover {
     background: linear-gradient(90deg, #dc3545 60%, #ff758c 100%);
 }
 
+.status-pending {
+    background: linear-gradient(90deg, #fd7e14 60%, #ffa94d 100%);
+}
+
 .page-header {
     margin: 40px auto 24px auto;
     max-width: 1050px;

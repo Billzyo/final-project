@@ -8564,3 +8564,51 @@ Stack trace:
 [25-Sep-2025 11:40:42 Africa/Lusaka] AJAX Search: All products query executed
 [25-Sep-2025 11:40:42 Africa/Lusaka] AJAX Search: Rows processed
 [25-Sep-2025 11:40:42 Africa/Lusaka] AJAX Search: Response sent
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Start
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Product instance created
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: All products query executed
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Rows processed
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Response sent
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Start
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Product instance created
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: All products query executed
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Rows processed
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Response sent
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Start
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Product instance created
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: All products query executed
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Rows processed
+[25-Sep-2025 12:00:25 Africa/Lusaka] AJAX Search: Response sent
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: Start
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: Product instance created
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID:  (Type: NULL)
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: category_id = '', category_id !== 'all' = true
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: All products query executed
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: Rows processed
+[25-Sep-2025 12:18:54 Africa/Lusaka] AJAX Search: Response sent
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Start
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Product instance created
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: All products query executed
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Rows processed
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Response sent
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Start
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Product instance created
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Phone and category captured - Category ID: all (Type: string)
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: No search text, checking category filter
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: category_id = 'all', category_id !== 'all' = false
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: All products query executed
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Rows processed
+[25-Sep-2025 12:18:55 Africa/Lusaka] AJAX Search: Response sent
