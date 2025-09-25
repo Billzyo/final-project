@@ -4,8 +4,7 @@
     "type": "project",
     "require": {
         "php": ">=7.4",
-        "mpdf/mpdf": "^8.0",
-        "twilio/sdk": "^8.8"
+        "mpdf/mpdf": "^8.0"
     },
     "autoload": {
         "psr-4": {

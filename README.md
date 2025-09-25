@@ -127,7 +127,6 @@ final-project/
 
 4. **Configure SMS (Optional)**
    - Set up Arduino GSM module on COM12 port
-   - Configure Twilio credentials in `app/core/config.php`
 
 5. **Web server configuration**
    - Point document root to `public/` directory
@@ -145,12 +144,7 @@ $DBPASS = "your_password";
 ```
 
 ### SMS Configuration
-Configure Twilio settings in `app/core/config.php`:
-```php
-define("TWILIO_SID", "your_twilio_account_sid_here");
-define("TWILIO_AUTH_TOKEN", "your_twilio_auth_token_here");
-define("TWILIO_PHONE_NUMBER", "your_twilio_phone_number_here");
-```
+No third-party provider is required. SMS is sent via the Arduino GSM module when connected and configured.
 
 ## 👥 User Roles
 

@@ -205,7 +205,7 @@ The system is implemented as a custom PHP MVC web application with REST-style AP
 - Frontend: HTML5/CSS3/JS with Bootstrap. AJAX for dynamic operations and real-time search. Responsive layout for desktop POS terminals and tablets.
 - Database: MySQL with normalized schema and indices for search performance. Transactional integrity for sales and sale items.
 - PDF Receipts: mPDF for branded, itemized PDF receipts with logos and auto-numbering.
-- SMS Notifications: Arduino GSM module for sending SMS receipts; message logging in database. Optional Twilio configuration abstraction for alternative providers.
+ - SMS Notifications: Arduino GSM module for sending SMS receipts; message logging in database.
 - APIs: public/api endpoints such as login.php, logout.php, users.php, products.php, sales.php, product-create.php, user-create.php.
 - Assets & Uploads: public/assets for css/js/images; public/uploads for product images with image optimization and cropping.
 

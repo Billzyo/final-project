@@ -62,7 +62,7 @@ The system implements a **custom-built PHP MVC framework** with the following co
 - **`database.php`**: PDO-based database abstraction with prepared statements for security
 - **`model.php`**: Base Active Record-style model class for database operations
 - **`functions.php`**: Helper functions (views, authentication, image processing, receipts)
-- **`config.php`**: Configuration constants (Twilio settings, database credentials)
+- **`config.php`**: Configuration constants (application name, database credentials)
 
 #### MVC Components
 
@@ -140,7 +140,7 @@ The system implements a **custom-built PHP MVC framework** with the following co
 - **File Upload Security**: Validate file types and use `crop()` function for images
 
 ### Integration Points
-- **SMS Module**: Arduino GSM on COM12 port or Twilio API configuration
+- **SMS Module**: Arduino GSM on COM12 port (optional)
 - **PDF Generation**: mPDF library for receipt formatting
 - **Image Processing**: GD library for product image cropping
 - **Session Management**: PHP sessions for authentication and cart state
